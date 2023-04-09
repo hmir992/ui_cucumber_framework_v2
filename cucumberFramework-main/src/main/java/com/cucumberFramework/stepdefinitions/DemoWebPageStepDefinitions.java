@@ -20,42 +20,19 @@ public class DemoWebPageStepDefinitions extends TestBase {
 
 	// initialize pages
 
-	RyanairHomePage ryanairHomePage = new RyanairHomePage(driver);
 	DemoWebHomePage demoWebPage = new DemoWebHomePage(driver);
 	LoginPage loginPage = new LoginPage(driver);
-	FlightInformationPage flightInformationPage = new FlightInformationPage(driver);
-	SelectSeatsPage selectSeatsPage = new SelectSeatsPage(driver);
-	AddBagPage addBagPage = new AddBagPage(driver);
-	ExtrasForFlightPage extrasForFlightPage = new ExtrasForFlightPage(driver);
-	PlanYourWholeTripPage planYourWholeTripPage = new PlanYourWholeTripPage(driver);
-	ContactDetailsPage contactDetailsPage = new ContactDetailsPage(driver);
-	GoogleLoginPage googleLoginPage = new GoogleLoginPage(driver);
 	SearchResultPage searchResultPage = new SearchResultPage(driver);
 
 	@Given("^I go to demo web home page$")
 	public void IGoToDemoWebHomePage() throws Throwable {
-		//driver.get("https://demowebshop.tricentis.com/");
-		//ryanairHomePage.clickClosePopup();
 		demoWebPage.goToDemoWebPage();
 		log.info(
 				"got to page https://demowebshop.tricentis.com/ ");
-		// TODO: there is a bug with the login so i cannot complete the test
-		// ryanairHomePage.loginToAccount();
-		// TODO: there is a bug with the login so i cannot complete the test
-		// googleLoginPage.loginToAccountViaGoogle();
-		//ryanairHomePage.selectFlightInformationAndClickSearch();
-		//flightInformationPage.selectValueTravelLightPackage();
-	//	flightInformationPage.ClickloginLater();
-	//	flightInformationPage.enterPassengerInformation();
-	///	selectSeatsPage.selectSeatsForPassengers();
-	//	addBagPage.selectNoBags();
-	///	extrasForFlightPage.selectNoExtrasAndClickContinue();
-	//	planYourWholeTripPage.clickBasketAndCheckoutButton();
 
 	}
 	@When("^I login to demo web page$")
 	public void ILoginToDemoWebPage() throws Throwable {
-		//contactDetailsPage.enterCardDetailsAndClickPayNow(cardNumber, cvvInput);
 		loginPage.loginToAccount();
 		log.info(
 				"logged into https://demowebshop.tricentis.com/ with user " + Constants.getUsername()+ " and password " + Constants.getPassword());
@@ -64,7 +41,6 @@ public class DemoWebPageStepDefinitions extends TestBase {
 	
 	@When("^I login to demo web page with incorrect login details$")
 	public void ILoginToDemoWebPageWithIncorrectLoginDetails() throws Throwable {
-		//contactDetailsPage.enterCardDetailsAndClickPayNow(cardNumber, cvvInput);
 		loginPage.loginToAccountWithIncorrectDetails();
 		log.info(
 				"cannot login to https://demowebshop.tricentis.com/ with user " + Constants.getIncorrectUsername()+ " and password " + Constants.getIncorrectPassword());

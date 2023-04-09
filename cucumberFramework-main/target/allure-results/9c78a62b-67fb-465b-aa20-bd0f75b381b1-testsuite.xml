@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1681064371602" stop="1681064386390" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a demo web user if i enter correct data i should be able to login correctly</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1681064371615" stop="1681064377182" status="passed">
+            <name>Login to demo web shop</name>
+            <title>Login to demo web shop</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1681064373915" stop="1681064375024" status="passed">
+                    <name>Given I go to demo web home page</name>
+                    <title>Given I go to demo web home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064375025" stop="1681064375958" status="passed">
+                    <name>When I login to demo web page</name>
+                    <title>When I login to demo web page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064375960" stop="1681064376056" status="passed">
+                    <name>Then I should be logged in as the correct user</name>
+                    <title>Then I should be logged in as the correct user</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment0" source="80370ed3-2231-47f7-9f5f-f903433ecae2-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login to demo web shop"/>
+                <label name="feature" value="As a demo web user if i enter correct data i should be able to login correctly"/>
+                <label name="host" value="OCUCOPC0918"/>
+                <label name="thread" value="48140@OCUCOPC0918.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1681064377183" stop="1681064381524" status="passed">
+            <name>Login with incorrect should display an error message</name>
+            <title>Login with incorrect should display an error message</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1681064378561" stop="1681064379960" status="passed">
+                    <name>Given I go to demo web home page</name>
+                    <title>Given I go to demo web home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064379961" stop="1681064380691" status="passed">
+                    <name>When I login to demo web page with incorrect login details</name>
+                    <title>When I login to demo web page with incorrect login details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064380692" stop="1681064380763" status="passed">
+                    <name>Then I should not be logged in and error message should be displayed</name>
+                    <title>Then I should not be logged in and error message should be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment1" source="0ecc8820-6d3b-4895-8554-dfb3f2300206-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="Login with incorrect should display an error message"/>
+                <label name="feature" value="As a demo web user if i enter correct data i should be able to login correctly"/>
+                <label name="host" value="OCUCOPC0918"/>
+                <label name="thread" value="48140@OCUCOPC0918.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1681064381525" stop="1681064386387" status="passed">
+            <name>I login to the system and search for a book</name>
+            <title>I login to the system and search for a book</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1681064382986" stop="1681064383964" status="passed">
+                    <name>Given I go to demo web home page</name>
+                    <title>Given I go to demo web home page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064383964" stop="1681064384861" status="passed">
+                    <name>And I login to demo web page</name>
+                    <title>And I login to demo web page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064384862" stop="1681064385509" status="passed">
+                    <name>When I search for a book</name>
+                    <title>When I search for a book</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064385510" stop="1681064385570" status="passed">
+                    <name>Then a book result should be displayed</name>
+                    <title>Then a book result should be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1681064385571" stop="1681064385633" status="passed">
+                    <name>And I should be logged in as the correct user</name>
+                    <title>And I should be logged in as the correct user</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="attachment2" source="7142bdb2-48c8-464b-9a01-9934780f7ea6-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="story" value="I login to the system and search for a book"/>
+                <label name="feature" value="As a demo web user if i enter correct data i should be able to login correctly"/>
+                <label name="host" value="OCUCOPC0918"/>
+                <label name="thread" value="48140@OCUCOPC0918.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a demo web user if i enter correct data i should be able to login correctly"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

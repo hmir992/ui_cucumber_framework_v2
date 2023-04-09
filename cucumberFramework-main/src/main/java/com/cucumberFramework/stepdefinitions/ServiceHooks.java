@@ -8,8 +8,6 @@ import org.openqa.selenium.WebDriverException;
 import com.cucumberFramework.enums.Browsers;
 import com.cucumberFramework.helper.Constants;
 import com.cucumberFramework.helper.LoggerHelper;
-import com.cucumberFramework.helper.SeleniumUtils;
-import com.cucumberFramework.pageObjects.RyanairHomePage;
 import com.cucumberFramework.testBase.TestBase;
 
 import cucumber.api.Scenario;

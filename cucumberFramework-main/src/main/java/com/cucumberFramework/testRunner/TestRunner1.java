@@ -9,7 +9,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-@CucumberOptions(tags = "@test1", features = "src/test/resources/features/ryanair/ryanair_payment_test.feature", glue = {
+@CucumberOptions(tags = "@test1, @test2, @test3", features = "src/test/resources/features/demo/login.feature", glue = {
 		"com/cucumberFramework/stepdefinitions" }, plugin = { "pretty", "html:target/cucumber-reports/cucumber-pretty",
 				"json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt",
 				"ru.yandex.qatools.allure.cucumberjvm.AllureReporter" }, monochrome = true, dryRun = false)

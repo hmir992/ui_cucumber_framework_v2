@@ -57,7 +57,6 @@ public class LoginPage {
 		enterUsername();
 		enterPassword();
 		loginButton.click();
-		//SeleniumUtils.pause(5);
 
 	}
 	
@@ -66,7 +65,6 @@ public class LoginPage {
 		enterInCorrectUsername();
 		enterIncorrectPassword();
 		loginButton.click();
-		//SeleniumUtils.pause(5);
 
 	}
 	
@@ -88,9 +86,5 @@ public class LoginPage {
 		SeleniumUtils.WaitUntilWebElementClickable(driver, LoginUserNameTextBox);
 		LoginUserNameTextBox.sendKeys(Constants.getUsername());
 	}
-
-	/*public void clickClosePopup() {
-		closePopup.click();
-	} */
 
 }

@@ -9,14 +9,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.cucumberFramework.enums.Browsers;
 import com.cucumberFramework.enums.OS;
-import com.cucumberFramework.pageObjects.AddBagPage;
-import com.cucumberFramework.pageObjects.ContactDetailsPage;
-import com.cucumberFramework.pageObjects.ExtrasForFlightPage;
-import com.cucumberFramework.pageObjects.FlightInformationPage;
-import com.cucumberFramework.pageObjects.GoogleLoginPage;
-import com.cucumberFramework.pageObjects.PlanYourWholeTripPage;
-import com.cucumberFramework.pageObjects.RyanairHomePage;
-import com.cucumberFramework.pageObjects.SelectSeatsPage;
 
 public class TestBase {
 

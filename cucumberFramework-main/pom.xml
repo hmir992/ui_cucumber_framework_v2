@@ -146,7 +146,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>RyanAirProject</projectName>
+                            <projectName>Project</projectName>
                             <!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
                             <skip>false</skip>
                             <outputDirectory>target/cucumber-reports/advanced-reports</outputDirectory>

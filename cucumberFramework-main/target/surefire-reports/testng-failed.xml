@@ -4,24 +4,7 @@
   <test name="Regression Test">
     <classes>
       <class name="com.cucumberFramework.testRunner.TestRunner1"/>
-      <class name="com.cucumberFramework.testRunner.TestRunner2"/>
+      <class name="com.cucumberFramework.testRunner.TestRunner1"/>
     </classes>
   </test> <!-- Regression Test -->
-  <test name="Regression Test(failed)">
-    <classes>
-      <class name="com.cucumberFramework.testRunner.TestRunner2">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-        </methods>
-      </class> <!-- com.cucumberFramework.testRunner.TestRunner2 -->
-      <class name="com.cucumberFramework.testRunner.TestRunner1">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="testDownClass"/>
-          <include name="feature"/>
-        </methods>
-      </class> <!-- com.cucumberFramework.testRunner.TestRunner1 -->
-    </classes>
-  </test> <!-- Regression Test(failed) -->
 </suite> <!-- Failed suite [BDD Test Suite] -->
