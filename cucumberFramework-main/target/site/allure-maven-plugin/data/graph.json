@@ -1,0 +1,25 @@
+{
+  "testCases" : [ {
+    "uid" : "87ef15b42a9a179f",
+    "name" : "Login to demo web shop",
+    "title" : "Login to demo web shop",
+    "time" : {
+      "start" : 1681019379686,
+      "stop" : 1681019385120,
+      "duration" : 5434
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a829091eb35622fe",
+    "name" : "Login with incorrect should display an error message",
+    "title" : "Login with incorrect should display an error message",
+    "time" : {
+      "start" : 1681019385122,
+      "stop" : 1681019388819,
+      "duration" : 3697
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

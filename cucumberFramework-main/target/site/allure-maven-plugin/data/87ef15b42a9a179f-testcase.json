@@ -1,0 +1,107 @@
+{
+  "uid" : "87ef15b42a9a179f",
+  "name" : "Login to demo web shop",
+  "title" : "Login to demo web shop",
+  "time" : {
+    "start" : 1681019379686,
+    "stop" : 1681019385120,
+    "duration" : 5434
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "22c96c5561810425",
+    "name" : "As a demo web user if i enter correct data i should be able to login correctly",
+    "title" : "As a demo web user if i enter correct data i should be able to login correctly"
+  },
+  "steps" : [ {
+    "name" : "Given I go to demo web home page",
+    "title" : "Given I go to demo web home page",
+    "time" : {
+      "start" : 1681019382208,
+      "stop" : 1681019383243,
+      "duration" : 1035
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I login to demo web page",
+    "title" : "When I login to demo web page",
+    "time" : {
+      "start" : 1681019383244,
+      "stop" : 1681019384155,
+      "duration" : 911
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I should be logged in as the correct user",
+    "title" : "Then I should be logged in as the correct user",
+    "time" : {
+      "start" : 1681019384157,
+      "stop" : 1681019384217,
+      "duration" : 60
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "attachment0",
+    "source" : "221330e7-964c-4728-92aa-dadba17f0e3b-attachment.png",
+    "type" : "image/png",
+    "size" : 162357,
+    "uid" : "4dc8d4e358a5c30b"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "As a demo web user if i enter correct data i should be able to login correctly"
+  }, {
+    "name" : "suite-name",
+    "value" : "As a demo web user if i enter correct data i should be able to login correctly"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "24048@OCUCOPC0918.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Login to demo web shop"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "OCUCOPC0918"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

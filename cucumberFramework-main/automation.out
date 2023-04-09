@@ -1,0 +1,6 @@
+2023-04-09 06:04:237 INFO  DemoWebPageStepDefinitions:40 - got to page https://demowebshop.tricentis.com/ 
+2023-04-09 06:04:153 INFO  DemoWebPageStepDefinitions:60 - logged into https://demowebshop.tricentis.com/ with user test1234qq@gmail.com and password 111111
+2023-04-09 06:04:218 INFO  ServiceHooks:54 - Login to demo web shop is pass
+2023-04-09 06:04:241 INFO  DemoWebPageStepDefinitions:40 - got to page https://demowebshop.tricentis.com/ 
+2023-04-09 06:04:982 INFO  DemoWebPageStepDefinitions:69 - cannot login to https://demowebshop.tricentis.com/ with user qq@gmail.com and password qq
+2023-04-09 06:04:42 INFO  ServiceHooks:54 - Login with incorrect should display an error message is pass
